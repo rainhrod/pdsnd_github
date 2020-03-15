@@ -1,14 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Project created March 15th
 
 ### Project Title
-Replace the Project Title
+My Udacity Git Project
 
 ### Description
-Describe what your project is about and what it does
+Create GitHub with my BikeShare Python code.
 
 ### Files used
-Include the files used
+bikeshare.py
+.gitignore.md
 
 ### Credits
 It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
