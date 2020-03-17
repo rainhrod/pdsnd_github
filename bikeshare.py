@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 """Code created by Rodrigo Rainho"""
+=======
+# Refactoring Code
+>>>>>>> refactoring
 
 import time
 import pandas as pd

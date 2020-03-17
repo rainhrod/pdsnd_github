@@ -15,3 +15,5 @@ bikeshare.py
 Credits to Rodrigo Rainho
 Mentoring Udacity Teachers
 
+### Refactoring Code
+Added comment
