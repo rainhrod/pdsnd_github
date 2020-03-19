@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 """Code created by Rodrigo Rainho"""
-=======
-# Refactoring Code
->>>>>>> refactoring
 
 import time
 import pandas as pd
@@ -23,7 +19,7 @@ choice = input(prompt).lower().strip()
 # terminate the program if the input is end
 if choice == 'end':
 raise SystemExit
-# triggers if the input has only one name
+# triggers if the input has only one name with no lastname
 elif ',' not in choice:
 if choice in choices:
 break
@@ -53,7 +49,7 @@ month = choice("\nFrom January to June, for what month(s) do you "
 months)
 day = choice("\nFor what weekday(s) do you want do filter bikeshare "
 "data? Use commas to list the names.\n>", weekdays)
-# confirm the user input
+# confirm the user input based on the file.
 confirmation = choice("\nPlease confirm that you would like to apply "
 "the following filter(s) to the bikeshare data."
 "\n\n City(ies): {}\n Month(s): {}\n Weekday(s)"
@@ -91,7 +87,7 @@ except:
 pass
 else:
 df = pd.read_csv(CITY_DATA[city])
-# create columns to display statistics
+# create columns to display statistics and filtering.
 df['Start Time'] = pd.to_datetime(df['Start Time'])
 df['Month'] = df['Start Time'].dt.month
 df['Weekday'] = df['Start Time'].dt.weekday_name

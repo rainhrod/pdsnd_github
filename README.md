@@ -14,6 +14,7 @@ bikeshare.py
 ### Credits
 Credits to Rodrigo Rainho
 Mentoring Udacity Teachers
+Company to pay the course
 
 ### Refactoring Code
-Added comment
+Refactoring code is executed on GIT
